@@ -1,10 +1,10 @@
 <script setup>
-import NamePlate from './components/NamePlate.vue';
+import Page from './components/Page.vue';
 import Vars from './css/vars.css';
 </script>
 
 <template>
-  <NamePlate />
+  <page />
 </template>
 
 <style>
@@ -21,5 +21,6 @@ import Vars from './css/vars.css';
 }
 body {
   margin: 0;
+  background-color: var(--color-dark);
 }
 </style>

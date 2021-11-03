@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&family=Roboto&display=swap');
+
 /* ========================================================================
  Breakpoints
 ======================================================================== */
@@ -14,6 +16,7 @@
 :root {
   --color-green: #3bab6f;
   --color-white: #fff;
+  --color-dark: #29323c;
 }
 .color-green {
   color: var(--color-green);
@@ -21,11 +24,13 @@
 .color-white {
   color: var(--color-white);
 }
+.color-dark {
+  color: var(--color-dark);
+}
 
 /* ========================================================================
  Typography
 ======================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Amiko&family=Roboto&display=swap');
 
 :root {
   --h1-size: 42px;
@@ -60,30 +65,30 @@ h6 {
 h1 {
   font-size: var(--h1-size);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 h2 {
   font-size: var(--h2-size);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 h3 {
   font-size: var(--h3-size);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 h4 {
   font-size: var(--h4-size);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 h5 {
   font-size: var(--h5-size);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 h6 {
   font-size: var(--h6-size);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }

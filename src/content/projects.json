@@ -1,0 +1,14 @@
+[
+    {
+        "name": "PartnerComm",
+        "link": "partnercomm.net",
+        "description": "here's a description",
+        "tags": [ "Nuxt", "Vue.Js" ]
+    },
+    {
+        "name": "Figma Design Starter",
+        "link": "#",
+        "description": "here's a description",
+        "tags": [ "Figma" ]
+    }
+]
