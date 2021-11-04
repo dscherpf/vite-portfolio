@@ -2,13 +2,13 @@
     {
         "name": "PartnerComm",
         "link": "partnercomm.net",
-        "description": "here's a description",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quae tandem ista ratio est? Sumenda potius quam expetenda. Teneo, inquit, finem illi videri nihil dolere. Minime vero, inquit ille, consentit. In schola desinis. ",
         "tags": [ "Nuxt", "Vue.Js" ]
     },
     {
         "name": "Figma Design Starter",
         "link": "#",
-        "description": "here's a description",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quae tandem ista ratio est? Sumenda potius quam expetenda. Teneo, inquit, finem illi videri nihil dolere. Minime vero, inquit ille, consentit. In schola desinis. ",
         "tags": [ "Figma" ]
     }
 ]
