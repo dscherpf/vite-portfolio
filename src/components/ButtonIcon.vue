@@ -39,15 +39,22 @@ export default {
 <style>
 .button-icon {
   background-color: var(--color-white);
-  border-radius: 100%;
-  height: 50px;
-  width: 50px;
+  border-radius: var(--border-radius);
+  height: 40px;
+  width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 0.5rem;
+  opacity: 0.65;
+}
+.button-icon:hover {
+  opacity: 1;
 }
 .button-icon a {
   display: flex;
+}
+.button-icon img {
+  height: 35px;
 }
 </style>

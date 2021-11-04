@@ -13,6 +13,8 @@ import Vars from './css/vars.css';
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-image: url(./assets/Background.jpg);
+  background-size: 1750px;
+  /* min-height: calc(100vh - 20px); */
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -22,5 +24,6 @@ import Vars from './css/vars.css';
 body {
   margin: 0;
   background-color: var(--color-dark);
+  /* border: 10px solid var(--color-green); */
 }
 </style>

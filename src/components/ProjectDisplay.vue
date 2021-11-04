@@ -1,6 +1,6 @@
 <template>
   <div class="project-container">
-    <h4 class="color-white">Recent Work</h4>
+    <h3 class="color-white">Recent Work</h3>
     <project-item
       v-for="(project, i) in projects"
       :key="i"
@@ -28,6 +28,10 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 0 1 500px;
+}
+@media (min-width: 960px) {
+  .project-container {
+    flex: 0 1 500px;
+  }
 }
 </style>

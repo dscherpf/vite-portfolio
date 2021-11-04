@@ -1,14 +1,26 @@
 [
     {
-        "name": "PartnerComm",
-        "link": "partnercomm.net",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quae tandem ista ratio est? Sumenda potius quam expetenda. Teneo, inquit, finem illi videri nihil dolere. Minime vero, inquit ille, consentit. In schola desinis. ",
-        "tags": [ "Nuxt", "Vue.Js" ]
+        "name": "PARTNERCOMM / External Site",
+        "link": "https://www.partnercomm.net",
+        "description": "A lightweight marketing site built for PartnerComm, Inc. This project was a departure from our past design-first WordPress sites, with a focus on SEO and site performance.",
+        "tags": [ "Nuxt", "Netlify", "Vue.Js" ]
     },
     {
-        "name": "Figma Design Starter",
+        "name": "HNTB / Benefits Site",
+        "link": "https://hntbtotalrewards.com/",
+        "description": "A comprehensive benefits site built with our custom content management system on top of WordPress, making the creation and custimization of pages a breeze for content managers.",
+        "tags": [ "Vue", "Vuetify", "WordPress" ]
+    },
+    {
+        "name": "PARTNERCOMM / Figma Template",
         "link": "#",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quae tandem ista ratio est? Sumenda potius quam expetenda. Teneo, inquit, finem illi videri nihil dolere. Minime vero, inquit ille, consentit. In schola desinis. ",
+        "description": "In an attempt to bridge a knowledge gap between our designers and developers, I built this template as a starting point for new web projects. The aim was to provide guidelines for what our devs need to get started and a design-agnostic template that demonstrates how web pages are constructed.",
         "tags": [ "Figma" ]
+    },
+    {
+        "name": "PERSONAL / Portfolio",
+        "link": "#",
+        "description": "This site is bare-bones trial run for Vite and an exercise in getting away from comforts like SCSS and Vuetify.",
+        "tags": [ "Vue", "Vite", "CSS" ]
     }
 ]

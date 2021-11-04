@@ -9,6 +9,9 @@
   --breakpoint-lg: 1264px;
   --breakpoint-xl: 1904px;
 }
+:root {
+  --border-radius: 3px;
+}
 
 /* ========================================================================
  Colors
@@ -17,6 +20,7 @@
   --color-green: #3bab6f;
   --color-white: #fff;
   --color-dark: #29323c;
+  --color-text: #34383e;
 }
 .color-green {
   color: var(--color-green);
@@ -34,25 +38,26 @@
 
 :root {
   --h1-size: 42px;
-  --h2-size: 38px;
-  --h3-size: 30px;
-  --h4-size: 24px;
-  --h5-size: 20px;
-  --h6-size: 16px;
+  --h2-size: 24px;
+  --h3-size: 20px;
+  --h4-size: 16px;
+  /* --h5-size: 20px;
+  --h6-size: 16px; */
 }
 @media (min-width: 960px) {
   :root {
     --h1-size: 56px;
-    --h2-size: 48px;
-    --h3-size: 36px;
-    --h4-size: 28px;
-    --h5-size: 22px;
-    --h6-size: 18px;
+    --h2-size: 28px;
+    --h3-size: 22px;
+    --h4-size: 16px;
+    /* --h5-size: 17px;
+    --h6-size: 16px; */
   }
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: var(--color-text);
 }
 h1,
 h2,
@@ -80,7 +85,8 @@ h3 {
 h4 {
   font-size: var(--h4-size);
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+  font-weight: 300;
 }
 h5 {
   font-size: var(--h5-size);
