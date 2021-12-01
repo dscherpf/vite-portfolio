@@ -5,6 +5,8 @@
       v-for="(project, i) in projects"
       :key="i"
       :project="project"
+      :active="model === i ? true : false"
+      v-on:selected="model === i ? (model = null) : (model = i)"
     />
   </div>
 </template>
@@ -19,6 +21,11 @@ export default {
     projects() {
       return ProjectData;
     },
+  },
+  data() {
+    return {
+      model: null,
+    };
   },
 };
 </script>
