@@ -1,10 +1,10 @@
 <template>
-  <div class="project_item">
-    <div class="project_head" v-on:click="active = !active">
+  <div class="project_item" :class="{ active: active }">
+    <div class="project_head" v-on:click="$emit('selected')">
       <h4 class="project_head-name" v-text="project.name"></h4>
       <div class="project_head-actions">
         <a class="project_head-info">
-          <mdicon class="icon" name="information-outline" />
+          <mdicon class="icon" name="chevron-down" />
         </a>
         <a :href="project.link" target="_blank" class="project_head-link">
           <mdicon class="icon" name="open-in-new" />
@@ -36,11 +36,15 @@ export default {
       type: Object,
       required: true,
     },
+    active: {
+      type: Boolean,
+      required: true,
+      default: false,
+    },
   },
   data() {
     return {
       info: mdiInformationOutline,
-      active: false,
     };
   },
 };
@@ -64,14 +68,17 @@ export default {
   cursor: pointer;
 }
 .project_head-name {
-  /* font-weight: bold; */
   flex-grow: 1;
   line-height: 1.5;
   text-align: left;
-  /* text-transform: uppercase; */
 }
 .project_head-info {
   color: var(--color-text);
+  transition: all 0.25s ease-in;
+}
+.active .project_head-info svg {
+  transform: rotate(180deg);
+  transition: all 0.25s 0.25s ease-out;
 }
 .project_head-link {
   color: var(--color-green);
@@ -81,7 +88,6 @@ export default {
 }
 .project_body {
   background-color: var(--color-white);
-  /* border-top: 2px solid var(--color-dark); */
   text-align: left;
   overflow: hidden;
 }
@@ -107,15 +113,13 @@ export default {
 /* animations */
 .fade-enter-active,
 .fade-leave-active {
-  transition: all 0.25s ease-out;
-  /* flex: 1 1 auto; */
+  transition: all 0.25s 0.25s ease-out;
   max-height: 200px;
 }
 
 .fade-enter-from,
 .fade-leave-to {
-  /* opacity: 0; */
-  /* flex: 0 1 0px; */
+  transition: all 0.25s ease-in;
   max-height: 0px;
 }
 </style>

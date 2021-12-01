@@ -1,9 +1,9 @@
 [
     {
-        "name": "PARTNERCOMM / External Site",
-        "link": "https://www.partnercomm.net",
-        "description": "A lightweight marketing site built for PartnerComm, Inc. This project was a departure from our past design-first WordPress sites, with a focus on SEO and site performance.",
-        "tags": [ "Nuxt", "Netlify", "Vue.Js" ]
+        "name": "AMERICAN FAMILY INSURANCE / PTO Tool",
+        "link": "https://afienterprisebenefits.com/pto-tool/",
+        "description": "This custom form helps AFI employees to understand upcoming changes to their Paid Time Off benefits.",
+        "tags": [ "Vuex", "Vuetify", "RESTful APIs" ]
     },
     {
         "name": "HNTB / Benefits Site",
@@ -12,15 +12,27 @@
         "tags": [ "Vue", "Vuetify", "WordPress" ]
     },
     {
+        "name": "PARTNERCOMM / Marketing Site",
+        "link": "https://www.partnercomm.net",
+        "description": "A lightweight marketing site built for PartnerComm, Inc. This project was a departure from our past design-first WordPress sites, with a focus on SEO and site performance.",
+        "tags": [ "Nuxt", "Nuxt Content", "Netlify", "Vue.Js" ]
+    },
+    {
         "name": "PARTNERCOMM / Figma Template",
-        "link": "#",
+        "link": "https://www.figma.com/file/fImI5KjxzNbCk2YJaT2f0u/Site-Design-Template?node-id=1%3A81",
         "description": "In an attempt to bridge a knowledge gap between our designers and developers, I built this template as a starting point for new web projects. The aim was to provide guidelines for what our devs need to get started and a design-agnostic template that demonstrates how web pages are constructed.",
         "tags": [ "Figma" ]
     },
     {
         "name": "PERSONAL / Portfolio",
-        "link": "#",
+        "link": "https://github.com/dscherpf/vite-portfolio",
         "description": "This site is bare-bones trial run for Vite and an exercise in getting away from comforts like SCSS and Vuetify.",
-        "tags": [ "Vue", "Vite", "CSS" ]
+        "tags": [ "Vue", "Vite", "CSS", "Github Pages" ]
+    },
+    {
+        "name": "RAYTHEON / Benefits Social Site",
+        "link": "https://rtxhealthyyou.com/",
+        "description": "In addition to our default WordPress setup, this site includes a social component that allows users to interact through posts, comments, and likes.",
+        "tags": [ "Vue", "Vuetify", "WordPress" ]
     }
 ]
