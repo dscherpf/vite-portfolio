@@ -1,9 +1,9 @@
 [
     {
-        "name": "AMERICAN FAMILY INSURANCE / PTO Tool",
-        "link": "https://afienterprisebenefits.com/pto-tool/",
-        "description": "This custom form helps AFI employees to understand upcoming changes to their Paid Time Off benefits.",
-        "tags": [ "Vuex", "Vuetify", "RESTful APIs" ]
+        "name": "LIBRARY OF CONGRESS / Admin Tools",
+        "link": "https://www.congress.gov",
+        "description": "The Bill Summary Workflow and Text Analysis Program apps aid the Library's support staff in editing and organizing congressional bills.",
+        "tags": [ "Vue 3", "Pinia", "Solr" ]
     },
     {
         "name": "HNTB / Benefits Site",
